@@ -1,0 +1,37 @@
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.link-container {
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.my-style {
+  text-align: center;
+}
+.logo-img {
+  width: 175px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  padding-right: 20px;
+}
+
+@media only screen and (max-width: 798px) {
+  .link-container {
+    display: none;
+  }
+  .logo-img {
+    width: 120px;
+  }
+}
