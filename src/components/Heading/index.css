@@ -1,0 +1,9 @@
+.headar-tag {
+  font-size: 32px;
+}
+
+@media only screen and (max-width: 798px) {
+  .headar-tag {
+    font-size: 24px;
+  }
+}

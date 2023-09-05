@@ -1,11 +1,14 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
 import * as React from "react";
-//import "./index.css";
+import "./index.css";
 
-export const Heading = ({ children }) => {
+export const Heading = ({ children, className = "" }) => {
   return (
-    <h1 sx={{ display: "flex", justifyContent: "center", alignItem: "center" }}>
+    <h1
+      sx={{ display: "flex", justifyContent: "center", alignItem: "center" }}
+      className={`${className} header-tag`}
+    >
       {children}
     </h1>
   );

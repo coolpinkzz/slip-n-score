@@ -8,6 +8,7 @@
 .hero-img {
   width: 100vw;
   object-fit: cover;
+  min-height: 100%;
   height: 100%;
 }
 .hero-dull {
@@ -59,10 +60,11 @@
   .welcome {
     font-size: 20px;
     padding: 5px 0px;
+    font-size: 14px;
   }
   .hero-img {
     width: 100%;
-    height: fit-content;
+    min-height: auto;
   }
   .hero-bg {
     height: fit-content;

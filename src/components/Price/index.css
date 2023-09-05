@@ -1,6 +1,5 @@
 .price-heading {
   text-align: center;
-  font-size: 50px;
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-name: pulse;
@@ -47,9 +46,6 @@
 }
 
 @media only screen and (max-width: 798px) {
-  .price-heading {
-    font-size: 24px;
-  }
   .price-container {
     display: block;
   }

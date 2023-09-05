@@ -2,6 +2,7 @@
 import { jsx } from "theme-ui";
 import * as React from "react";
 import "./index.css";
+import { Heading } from "../Heading";
 
 const PriceContainer = {
   width: "container",

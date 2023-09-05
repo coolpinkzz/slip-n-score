@@ -1,0 +1,37 @@
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+.about-wrapper {
+  display: flex;
+  justify-content: space-around;
+
+  padding: 30px 0px;
+}
+.about-left {
+  flex: 2;
+  font-size: 22px;
+}
+
+.about-right {
+  flex: 1;
+  text-align: center;
+}
+.slip-score-ul,
+.slip-session-p {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 798px) {
+  .about-wrapper {
+    display: block;
+  }
+  .about-left {
+    flex: 2;
+    font-size: 18px;
+  }
+  .slip-score-ul,
+  .slip-session-p {
+    font-size: 16px;
+  }
+}

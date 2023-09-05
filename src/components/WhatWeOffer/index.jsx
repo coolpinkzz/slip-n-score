@@ -4,11 +4,12 @@ import * as React from "react";
 import "./index.css";
 import { Services } from "../../utils/constant";
 import { Card } from "../Card";
+import { Heading } from "../Heading";
 
 export const WhatWeOffer = () => {
   return (
     <div sx={{ fontFamily: "content" }} className="service-wrapper">
-      <h1>What we offer</h1>
+      <Heading>What we offer</Heading>
       <div className="cards-wrapper">
         {Services?.map((item) => {
           return (

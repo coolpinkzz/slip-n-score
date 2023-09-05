@@ -134,7 +134,6 @@ const IndexPage = () => {
             <WhatWeOffer />
             <About />
             <Location />
-            <SoapFootballRules />
 
             {/*<h1 >
                 Congratulations
@@ -184,4 +183,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>Slip N Score</title>

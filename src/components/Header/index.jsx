@@ -3,6 +3,7 @@ import { jsx } from "theme-ui";
 import * as React from "react";
 import "./index.css";
 import { navLinks } from "../../utils/constant";
+import { navigate } from "gatsby";
 
 const navStyle = {
   display: "flex",
@@ -35,7 +36,12 @@ export const Header = () => {
   return (
     <>
       <nav sx={navStyle} className="nav-wrapper">
-        <img className="logo-img" src={"../../logo.png"} alt="slip n score" />
+        <img
+          onClick={() => navigate("/")}
+          className="logo-img"
+          src={"../../logo.png"}
+          alt="slip n score"
+        />
         <div className="nav-menu">
           <ul className="link-container">
             {navLinks?.map((item) => {

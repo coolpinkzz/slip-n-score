@@ -38,3 +38,10 @@ export const BEGINNERSGUIDE = ["Maximum 12 players can Slip N Score at a time. S
     "Every player will be equipped with essential safety gear including helmets, knee pads, and elbow pads. ",
     "We encourage a fair and friendly game, so let's all play responsibly by avoiding aggressive tackles and rough play that may lead to injuries on the slippery surface.",
     "Please refrain from touching your eyes or face with soapy hands."]
+
+export const SLIPNSCOREOFFER = [
+    "Slippery Soccer: Gather your team and take on the slippery challenge of soapy soccer. Maximum 12 players can play at once, with substitutes welcome to join in the fun.",
+    "Safety First: Your well-being is our priority. We equip all players with top-notch safety gear, including helmets, knee pads, and elbow pads.",
+    "Facilities: Enjoy a hassle-free experience with our on-site shower and changing room facilities. No need to worry about post-game cleanup!",
+    "Responsible Play: While the fun is wild, we encourage responsible play. Let's keep the game friendly and safe for everyone by avoiding aggressive tackles and rough play."
+]
