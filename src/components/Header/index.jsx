@@ -4,6 +4,9 @@ import * as React from "react";
 import "./index.css";
 import { navLinks } from "../../utils/constant";
 import { navigate } from "gatsby";
+import { AiOutlineMenu } from "react-icons/ai";
+import { RxCross2 } from "react-icons/rx";
+import { useState } from "react";
 
 const navStyle = {
   display: "flex",
@@ -33,6 +36,13 @@ const listAnchor = {
 };
 
 export const Header = () => {
+  const [showMenu, setShowMenu] = useState(false);
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
+  const closeMenu = () => {
+    setShowMenu(false);
+  };
   return (
     <>
       <nav sx={navStyle} className="nav-wrapper">
@@ -55,6 +65,27 @@ export const Header = () => {
             })}
           </ul>
           <button sx={bookNowBtn}>Book Now</button>
+          <div className={showMenu ? "show-menu" : "hide-menu"}>
+            <RxCross2 onClick={closeMenu} className="cross-icon" />
+            <nav>
+              <ul>
+                {navLinks?.map((item) => {
+                  return (
+                    <li sx={listLink}>
+                      <a sx={listAnchor} href={item?.url}>
+                        {item?.text}
+                      </a>
+                    </li>
+                  );
+                })}
+              </ul>
+            </nav>
+          </div>
+          <AiOutlineMenu
+            onClick={toggleMenu}
+            className="menu-icon"
+            fontSize="20"
+          />
         </div>
       </nav>
     </>

@@ -33,6 +33,27 @@
   display: flex;
   padding-right: 20px;
 }
+.menu-icon {
+  display: none;
+}
+.show-menu {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 90%;
+  height: 100%;
+  backdrop-filter: blur(5px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  z-index: 100;
+  transition: 0.5s ease-in-out;
+  position: fixed;
+  top: 0;
+}
+.hide-menu {
+  display: none;
+}
 
 @media only screen and (max-width: 798px) {
   .link-container {
@@ -40,5 +61,26 @@
   }
   .logo-img {
     width: 120px;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .cross-icon {
+    display: block;
+    cursor: pointer;
+    float: right;
+    margin: 15px 20px 0px 20px;
+    font-size: 30px;
+  }
+  .show-menu nav {
+    margin-top: 50px;
+  }
+  .show-menu nav ul {
+    padding: 0px;
+    text-align: center;
+    font-size: 24px;
+  }
+  .show-menu nav ul li {
+    margin: 20px 0px;
   }
 }
