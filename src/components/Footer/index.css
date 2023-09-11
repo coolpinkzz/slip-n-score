@@ -1,0 +1,58 @@
+.footer-main {
+  border-top: 1px solid white;
+  margin-top: 20px;
+}
+.footer-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  padding: 20px;
+}
+.footer-container p,
+h2 {
+  margin: 0;
+}
+.footer-container a {
+  color: inherit;
+  font-size: 20px;
+}
+
+.footer-container .address {
+  flex: 1;
+}
+.footer-container .links {
+  flex: 1;
+  margin-left: 50px;
+}
+.footer-container .get-in-touch {
+  flex: 1;
+}
+.footer-container .social {
+  flex: 1;
+}
+
+.social svg {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.social svg:hover {
+  transform: scale(1.05);
+}
+.social .yt {
+  font-size: 30px;
+}
+.social .icon-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 798px) {
+  .footer-container {
+    display: block;
+  }
+  .footer-container div {
+    margin-bottom: 20px;
+  }
+}

@@ -8,26 +8,37 @@ export const navLinks = [
         url: '/activities'
     },
     {
-        text: 'Reach Us',
-        url: '/activities'
+        text: 'Contact Us',
+        url: '/contact'
     },
+
 ]
 
 export const Services = [
     {
-        title: 'Team Building Activity',
-        description: 'Searching for an engaging and unique team building experience that will unite your corporate team like never before? Look no further! Introducing our exhilarating Soap Football Corporate Team Building Activities – the ultimate blend of sport, camaraderie, and laughter.',
+        title: 'Online Private Bookings',
+        description: 'We Allow individuals and groups to reserve the arena for private sessions, whether it`s for practicing soccer skills, friendly matches, or simply enjoying a day out with friends and family',
         url: "../../team-building.png"
     },
     {
         title: 'Party Packages',
-        description: ' Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus quisquam maxime magni amet distinctio sequi explicabo suscipit, modi commodi? Facere cumque repudiandae velit, officiis harum minima neque rem tempora explicabo?',
+        description: 'We create special packages for birthday or kitty parties and other celebrations. These packages may include exclusive playtime and decorations to make events memorable.',
+        url: "../../party.jpeg"
+    },
+    {
+        title: 'Team Building Event',
+        description: 'We Offer team-building sessions for companies and organizations. Soapy soccer can be a unique and fun way for teams to bond and improve their communication and cooperation skills.',
+        url: "../../team-building-exercise.png"
+    },
+    {
+        title: 'Event Hosting',
+        description: ' Partner with event organizers to host special events like charity matches, fundraisers, or community gatherings in your arena.',
         url: "../../team-building.png"
     },
     {
-        title: 'Team Building',
-        description: ' Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus quisquam maxime magni amet distinctio sequi explicabo suscipit, modi commodi? Facere cumque repudiandae velit, officiis harum minima neque rem tempora explicabo?',
-        url: "../../team-building.png"
+        title: 'Rent Soapy Football Pitch',
+        description: 'We are offering a mobile setup that can be transported to different locations for events, festivals, or promotional activities.',
+        url: "../../rent-pitch.png"
     }
 ]
 

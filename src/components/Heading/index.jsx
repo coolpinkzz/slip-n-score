@@ -6,7 +6,12 @@ import "./index.css";
 export const Heading = ({ children, className = "" }) => {
   return (
     <h1
-      sx={{ display: "flex", justifyContent: "center", alignItem: "center" }}
+      sx={{
+        display: "flex",
+        justifyContent: "center",
+        alignItem: "center",
+        margin: 20,
+      }}
       className={`${className} header-tag`}
     >
       {children}

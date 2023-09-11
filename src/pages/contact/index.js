@@ -3,19 +3,21 @@ import {jsx} from "theme-ui";
 import * as React from "react";
 import {Header} from "../../components/Header";
 import {AboutUs} from "../../components/AboutUs";
+import {ContactUs} from "../../components/ContactUs";
 import {Footer} from "../../components/Footer";
 
-const AboutPage = () => {
+const ContactPage = () => {
     return (
         <>
             <Header />
-            <AboutUs />
+            <ContactUs />
             <Footer />
+
         </>
     )
 };
 
 
-export default AboutPage
-export const Head = () => <title>About | Slip N Score</title>
+export default ContactPage
+export const Head = () => <title>Contact | Slip N Score</title>
 

@@ -1,0 +1,33 @@
+.contact-wrapper {
+  display: flex;
+  gap: 20px;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.contact-wrapper div {
+  flex: 1;
+}
+
+.contact-wrapper .contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0px;
+}
+.contact-wrapper .contact svg {
+  font-size: 50px;
+  margin-right: 20px;
+}
+.contact-wrapper .map-direction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 798px) {
+  .contact-wrapper {
+    display: block;
+  }
+}

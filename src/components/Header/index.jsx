@@ -21,6 +21,7 @@ const navStyle = {
 const bookNowBtn = {
   variant: "buttons.primary",
   fontSize: 20,
+  padding: "5px",
 };
 
 const listLink = {

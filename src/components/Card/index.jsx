@@ -13,9 +13,16 @@ export const Card = ({ title, description, url }) => {
         alt="team-building"
       />
       <div sx={{ textAlign: "left" }} className="card-body">
-        <h2 sx={{ color: "yellow" }}>{title}</h2>
+        <h2 sx={{ color: "yellow", margin: "10px 0px" }}>{title}</h2>
         <p>{description}</p>
-        <button sx={{ variant: "buttons.primary", fontSize: "20px" }}>
+        <button
+          sx={{
+            variant: "buttons.primary",
+            fontSize: "16px",
+            margin: "10px 0px",
+            padding: "5px",
+          }}
+        >
           Know More
         </button>
       </div>

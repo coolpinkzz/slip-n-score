@@ -4,6 +4,7 @@ import * as React from "react";
 import Lottie from "react-lottie";
 import soapAnimation from "../../../static/soap.json";
 import "./index.css";
+import { StaticImage } from "gatsby-plugin-image";
 
 export const Hero = () => {
   const bookNowBtn = {
@@ -32,17 +33,16 @@ export const Hero = () => {
           }}
         >
           <h2 sx={{ fontFamily: "circular" }} className="welcome">
-            Get ready to slide, score, and make a bubbly mess on the field like
-            never before!
+            Get ready to slide, score, and make a bubbly mess like never before!
             <span sx={{ marginLeft: 10 }}>
               <Lottie options={defaultOptions} height={40} width={40} />
             </span>
           </h2>
         </div>
         <div className="hero-bg">
-          <img
+          <StaticImage
             className="hero-img"
-            src={"../../hero_bg.png"}
+            src="../../../static/hero_bg.png"
             alt="slip n score"
           />
           <div className="hero-dull"></div>

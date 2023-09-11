@@ -37,7 +37,9 @@ export const AboutUs = () => {
         </div>
       </div>
       <div>
-        <h1 sx={{ color: "yellow" }}>🌟 Slip N Score Offers:</h1>
+        <h1 sx={{ color: "yellow", margin: "20px 0px" }}>
+          🌟 Slip N Score Offers:
+        </h1>
         <ul className="slip-score-ul">
           {SLIPNSCOREOFFER.map((list) => {
             return <li>{list}</li>;
@@ -45,7 +47,9 @@ export const AboutUs = () => {
         </ul>
       </div>
       <div>
-        <h1 sx={{ color: "yellow" }}>🕒 Slippery Sessions:</h1>
+        <h1 sx={{ color: "yellow", margin: "20px 0px" }}>
+          🕒 Slippery Sessions:
+        </h1>
         <p className="slip-session-p">
           Each game session lasts for a thrilling 55 minutes. To make sure
           you're all set for action, we ask that you arrive 15 minutes before
@@ -53,14 +57,14 @@ export const AboutUs = () => {
         </p>
       </div>
       <div>
-        <h1 sx={{ color: "yellow" }}>🧼 Soap Safety:</h1>
+        <h1 sx={{ color: "yellow", margin: "20px 0px" }}>🧼 Soap Safety:</h1>
         <p className="slip-session-p">
           Remember to be cautious during the game and keep those soapy hands
           away from your eyes and face.
         </p>
       </div>
       <div>
-        <h1 sx={{ color: "yellow" }}>Join Us</h1>
+        <h1 sx={{ color: "yellow", margin: "20px 0px" }}>Join Us</h1>
         <p className="slip-session-p">
           We're excited to invite you to be a part of the Slip N Score family.
           Whether you're planning a day out with friends, a team-building event,
