@@ -17,6 +17,7 @@ export const WhatWeOffer = () => {
               title={item?.title}
               description={item?.description}
               url={item?.url}
+              slug={item?.slug}
             />
           );
         })}

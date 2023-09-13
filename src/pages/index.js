@@ -5,12 +5,13 @@ import {Header} from "../components/Header"
 import {Hero} from "../components/Hero"
 import {Price} from "../components/Price"
 import {Location} from "../components/Loaction"
-import {About} from "../components/About"
+import {About, RulesRegulation} from "../components/RulesAndRegulation"
 import {WhatWeOffer} from "../components/WhatWeOffer"
 import {Card} from "../components/Card"
 import {SoapFootballRules} from "../components/SoapFootballRules"
 import {Footer} from "../components/Footer"
 import Layout from "../components/layout"
+import {SEO} from "../utils/constant"
 
 
 
@@ -134,7 +135,7 @@ const IndexPage = () => {
             <Hero />
             <Price />
             <WhatWeOffer />
-            <About />
+            <RulesRegulation />
             <Location />
             <Footer />
 
@@ -186,4 +187,10 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Slip N Score</title>
+export const Head = () => (
+    <>
+        <title>{SEO?.HOME?.title}</title>
+        <meta name="description" content={SEO?.HOME?.description} />
+        {/*<meta name="image" content={''} />*/}
+    </>
+) 

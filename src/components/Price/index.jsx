@@ -15,7 +15,7 @@ export const Price = () => {
       <h1 className="price-heading"> Exclusive Grand Opening Offers!</h1>
       <div sx={PriceContainer} className="price-container">
         <div sx={{ flex: 1 }}>
-          <h1 className="discount-info">
+          <h1 sx={{ fontFamily: "content" }} className="discount-info">
             Get ready for non-stop fun with a{" "}
             <span sx={{ color: "yellow" }}>FLAT 40% discount</span> on each slot
           </h1>

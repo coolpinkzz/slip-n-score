@@ -21,12 +21,21 @@ h2 {
 .footer-container .address {
   flex: 1;
 }
+.footer-container .address-content {
+  font-size: 14px;
+}
 .footer-container .links {
   flex: 1;
   margin-left: 50px;
 }
+.footer-container .link-list a {
+  font-size: 16px;
+}
 .footer-container .get-in-touch {
   flex: 1;
+}
+.get-in-touch a {
+  font-size: 14px;
 }
 .footer-container .social {
   flex: 1;
@@ -54,5 +63,8 @@ h2 {
   }
   .footer-container div {
     margin-bottom: 20px;
+  }
+  .footer-container .links {
+    margin-left: 0;
   }
 }

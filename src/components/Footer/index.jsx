@@ -5,35 +5,39 @@ import "./index.css";
 import { Heading } from "../Heading";
 import { BsInstagram } from "react-icons/bs";
 import { AiFillFacebook, AiFillYoutube } from "react-icons/ai";
+import { PHONE_NUMBER, VENUE_ADDRESS } from "../../utils/constant";
 
 export const Footer = () => {
   return (
     <div sx={{ fontFamily: "content" }} className="footer-main">
       <div className="footer-container">
         <div className="get-in-touch">
-          <h2>Get in Touch</h2>
-          <p>info@slipnscore.in</p>
+          <h3>Get in Touch</h3>
+          <p>
+            <a href="tel:9886011023">{PHONE_NUMBER}</a>{" "}
+          </p>
+          <p>
+            <a href="mailto:info@slipncore.in">info@slipncore.in</a>{" "}
+          </p>
         </div>
         <div className="address">
-          <h2>Address</h2>
-          <p>
-            156/8D, 19th Main Road, Bhagwati Layout, Hulimavu, Bannerghatta Road
-          </p>
+          <h3>Address</h3>
+          <p className="address-content">{VENUE_ADDRESS}</p>
         </div>
         <div className="links">
-          <h2>Links</h2>
-          <p>
+          <h3>Links</h3>
+          <p className="link-list">
             <a href="/about">About</a>{" "}
           </p>
-          <p>
+          <p className="link-list">
             <a href="/about">Contact</a>
           </p>
-          <p>
+          <p className="link-list">
             <a href="/about">Activites</a>
           </p>
         </div>
         <div className="social">
-          <h2>Social</h2>
+          <h3>Social</h3>
           <div className="icon-wrapper">
             <a href="https://www.instagram.com/slipnscoreblr">
               <BsInstagram />

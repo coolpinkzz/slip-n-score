@@ -16,9 +16,9 @@ export const AboutUs = () => {
             Welcome to the heart-pounding, laughter-inducing, and
             adrenaline-rushing world of Slip N Score Soapy Football Arena! 🌊⚽
             We are your ultimate destination for an unforgettable fusion of
-            soccer and slipperiness. Our one-of-a-kind arena invites
+            football and slipperiness. Our one-of-a-kind arena invites
             thrill-seekers, sports enthusiasts, and anyone up for a unique
-            adventure to experience the joy of soccer on a soapy stage.
+            adventure to experience the joy of football on a soapy stage.
           </p>{" "}
           <p>
             🏟️ Our Arena: Step into our vibrant, action-packed arena where the

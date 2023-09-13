@@ -3,7 +3,11 @@ import { jsx } from "theme-ui";
 import * as React from "react";
 import "./index.css";
 import { Heading } from "../Heading";
-import { SLIPNSCOREOFFER } from "../../utils/constant";
+import {
+  PHONE_NUMBER,
+  SLIPNSCOREOFFER,
+  VENUE_ADDRESS,
+} from "../../utils/constant";
 import { SlLocationPin } from "react-icons/sl";
 import { CgPhone } from "react-icons/cg";
 import { TfiEmail } from "react-icons/tfi";
@@ -11,7 +15,9 @@ import { TfiEmail } from "react-icons/tfi";
 export const ContactUs = () => {
   return (
     <div sx={{ fontFamily: "content" }} className="container">
-      <Heading>Contact Slip N Score Soapy Football Arena</Heading>
+      <Heading sx={{ color: "yellow" }}>
+        Contact Slip N Score Soapy Football Arena
+      </Heading>
       <div className="contact-wrapper">
         <div>
           <h3 sx={{ fontWeight: "200" }}>
@@ -20,27 +26,24 @@ export const ContactUs = () => {
             using the following contact information:
           </h3>
           <div className="contact">
-            <SlLocationPin />
+            <SlLocationPin sx={{ color: "yellow" }} />
             <div>
               <h2>Our Location</h2>
-              <p>
-                156/8D, 19th Main Road, Bhagwati Layout, Hulimavu, Bannerghatta
-                Road
-              </p>
+              <p>{VENUE_ADDRESS}</p>
             </div>
           </div>
           <div className="contact">
-            <CgPhone />
+            <CgPhone sx={{ color: "yellow" }} />
             <div>
               <h2>Phone Number</h2>
-              <p>+91 9632967890, +91 9989087893</p>
+              <p>{PHONE_NUMBER}</p>
             </div>
           </div>
           <div className="contact">
-            <TfiEmail />
+            <TfiEmail sx={{ color: "yellow" }} />
             <div>
               <h2>Email Address</h2>
-              <p>info@slipnscore</p>
+              <p>info@slipnscore.in</p>
             </div>
           </div>
         </div>

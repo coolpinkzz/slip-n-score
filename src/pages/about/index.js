@@ -4,6 +4,7 @@ import * as React from "react";
 import {Header} from "../../components/Header";
 import {AboutUs} from "../../components/AboutUs";
 import {Footer} from "../../components/Footer";
+import {SEO} from "../../utils/constant";
 
 const AboutPage = () => {
     return (
@@ -17,5 +18,11 @@ const AboutPage = () => {
 
 
 export default AboutPage
-export const Head = () => <title>About | Slip N Score</title>
+export const Head = () => (
+    <>
+        <title>{SEO?.ABOUT?.title}</title>
+        <meta name="description" content={SEO?.ABOUT?.description} />
+        {/*<meta name="image" content={''} />*/}
+    </>
+)
 

@@ -41,6 +41,7 @@
   text-align: center;
   display: flex;
   justify-content: space-around;
+  padding: 20px 0px;
 }
 .price-wrap {
   display: flex;

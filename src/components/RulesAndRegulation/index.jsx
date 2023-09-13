@@ -5,7 +5,7 @@ import "./index.css";
 import { BEGINNERSGUIDE } from "../../utils/constant";
 import { Heading } from "../Heading";
 
-export const About = () => {
+export const RulesRegulation = () => {
   return (
     <>
       <Heading>In Depth Beginners Guide</Heading>
@@ -16,7 +16,7 @@ export const About = () => {
         >
           <ul>
             {BEGINNERSGUIDE?.map((point) => {
-              return <li>{point}</li>;
+              return <li>👉 {point}</li>;
             })}
           </ul>
         </div>

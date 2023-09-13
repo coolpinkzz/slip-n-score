@@ -3,27 +3,26 @@ import {jsx} from "theme-ui";
 import * as React from "react";
 import {Header} from "../../components/Header";
 import {AboutUs} from "../../components/AboutUs";
-import {ContactUs} from "../../components/ContactUs";
 import {Footer} from "../../components/Footer";
 import {SEO} from "../../utils/constant";
+import {RulesRegulation} from "../../components/RulesRegulation";
 
-const ContactPage = () => {
+const RulesPage = () => {
     return (
         <>
             <Header />
-            <ContactUs />
+            <RulesRegulation />
             <Footer />
-
         </>
     )
 };
 
 
-export default ContactPage
+export default RulesPage
 export const Head = () => (
     <>
-        <title>{SEO?.CONTACT?.title}</title>
-        <meta name="description" content={SEO?.CONTACT?.description} />
+        <title>{SEO?.RULES?.title}</title>
+        <meta name="description" content={SEO?.RULES?.description} />
         {/*<meta name="image" content={''} />*/}
     </>
 )

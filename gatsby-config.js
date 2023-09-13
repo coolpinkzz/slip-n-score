@@ -3,8 +3,10 @@
  */
 module.exports = {
     siteMetadata: {
-        title: `SlipNScore`,
-        siteUrl: `https://www.yourdomain.tld`
+        title: `Slip N Score`,
+        siteUrl: `https://www.slipnscore.in`,
+        image: `/logo.png`,
+        description: `Slip N Score are your ultimate destination for an unforgettable fusion of football and slipperiness. Our one-of-a-kind arena invites thrill-seekers, sports enthusiasts, and anyone up for a unique adventure to experience the joy of football on a soapy stage. Our Arena: Step into our vibrant, action-packed arena where the rules of the game are simple: Slip, slide, score! Our specially designed, soapy surface promises endless hours of laughter, challenge, and excitement.`,
     },
     plugins: ["gatsby-plugin-theme-ui", "gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
         resolve: 'gatsby-source-filesystem',
