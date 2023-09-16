@@ -40,7 +40,7 @@ export const Footer = () => {
             <a href="/about">Activites</a>
           </p>
           <p className="link-list">
-            <a href="/about">Terms and Conditions</a>
+            <a href="/terms-and-condition">Terms and Conditions</a>
           </p>
         </div>
         <div className="social">
