@@ -34,13 +34,16 @@ export const Footer = () => {
             <a href="/about">About</a>{" "}
           </p>
           <p className="link-list">
-            <a href="/about">Contact</a>
+            <a href="/contact">Contact</a>
           </p>
           <p className="link-list">
-            <a href="/about">Activites</a>
+            <a href="/rules">Rules and Regulation</a>
           </p>
           <p className="link-list">
             <a href="/terms-and-condition">Terms and Conditions</a>
+          </p>
+          <p className="link-list">
+            <a href="/privacy">Privacy and Policy</a>
           </p>
         </div>
         <div className="social">

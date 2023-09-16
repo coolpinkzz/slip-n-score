@@ -32,7 +32,7 @@ export const Hero = () => {
             background: "tomato",
           }}
         >
-          <h2 sx={{ fontFamily: "circular" }} className="welcome">
+          <h2 sx={{ fontFamily: "content" }} className="welcome">
             Get ready to slide, score, and make a bubbly mess like never before!
             <span sx={{ marginLeft: 10 }}>
               <Lottie options={defaultOptions} height={40} width={40} />

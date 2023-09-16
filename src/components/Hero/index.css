@@ -84,4 +84,10 @@
   .hero-btn {
     font-size: 20px;
   }
+  .welcome h2 {
+    padding: 0px 30px;
+  }
+  .welcome span {
+    display: none;
+  }
 }
