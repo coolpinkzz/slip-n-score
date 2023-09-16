@@ -60,7 +60,7 @@ export const Hero = () => {
             <br /> Experience Now!
             <br />
             <button className="hero-btn" sx={bookNowBtn}>
-              Book Now
+              Coming Soon
             </button>
           </p>
         </div>

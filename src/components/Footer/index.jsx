@@ -4,7 +4,11 @@ import * as React from "react";
 import "./index.css";
 import { Heading } from "../Heading";
 import { BsInstagram } from "react-icons/bs";
-import { AiFillFacebook, AiFillYoutube } from "react-icons/ai";
+import {
+  AiFillFacebook,
+  AiFillYoutube,
+  AiFillTwitterCircle,
+} from "react-icons/ai";
 import { PHONE_NUMBER, VENUE_ADDRESS } from "../../utils/constant";
 
 export const Footer = () => {
@@ -35,6 +39,9 @@ export const Footer = () => {
           <p className="link-list">
             <a href="/about">Activites</a>
           </p>
+          <p className="link-list">
+            <a href="/about">Terms and Conditions</a>
+          </p>
         </div>
         <div className="social">
           <h3>Social</h3>
@@ -49,6 +56,9 @@ export const Footer = () => {
 
             <a href="https://www.youtube.com/@slipnscore">
               <AiFillYoutube className="yt" />
+            </a>
+            <a href="https://twitter.com/slipnscoreblr">
+              <AiFillTwitterCircle />
             </a>
           </div>
         </div>

@@ -7,6 +7,7 @@ import { navigate } from "gatsby";
 import { AiOutlineMenu } from "react-icons/ai";
 import { RxCross2 } from "react-icons/rx";
 import { useState } from "react";
+import { LABELS } from "../../utils/labels";
 
 const navStyle = {
   display: "flex",
@@ -65,7 +66,7 @@ export const Header = () => {
               );
             })}
           </ul>
-          <button sx={bookNowBtn}>Book Now</button>
+          <button sx={bookNowBtn}>{LABELS?.BOOK_NOW}</button>
           <div className={showMenu ? "show-menu" : "hide-menu"}>
             <RxCross2 onClick={closeMenu} className="cross-icon" />
             <nav>

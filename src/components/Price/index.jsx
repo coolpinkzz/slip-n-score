@@ -3,6 +3,8 @@ import { jsx } from "theme-ui";
 import * as React from "react";
 import "./index.css";
 import { Heading } from "../Heading";
+import { bookNowBtn } from "../styles";
+import { LABELS } from "../../utils/labels";
 
 const PriceContainer = {
   width: "container",
@@ -36,6 +38,7 @@ export const Price = () => {
                 1199 Rs (55 min)
               </h3>
             </div>
+            <button sx={bookNowBtn}>{LABELS?.BOOK_NOW}</button>
           </div>
           <div>
             <h2>Weekends (Sat - Sun)</h2>
@@ -47,6 +50,7 @@ export const Price = () => {
                 1499 Rs (55 min)
               </h3>
             </div>
+            <button sx={bookNowBtn}>{LABELS?.BOOK_NOW}</button>
           </div>
         </div>
       </div>
