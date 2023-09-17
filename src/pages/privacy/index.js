@@ -224,8 +224,8 @@ const PrivacyPolicy = () => {
 export default PrivacyPolicy
 export const Head = () => (
     <>
-        <title>{SEO?.TERMSCOND?.title}</title>
-        <meta name="description" content={SEO?.TERMSCOND?.description} />
+        <title>{SEO?.PRIVACY?.title}</title>
+        <meta name="description" content={SEO?.PRIVACY?.description} />
         {/*<meta name="image" content={''} />*/}
     </>
 )

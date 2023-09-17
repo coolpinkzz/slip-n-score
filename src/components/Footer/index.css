@@ -30,7 +30,9 @@ h2 {
 }
 .footer-container .link-list a {
   font-size: 16px;
+  text-decoration: none;
 }
+
 .footer-container .get-in-touch {
   flex: 1;
 }
