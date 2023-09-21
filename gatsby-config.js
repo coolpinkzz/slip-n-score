@@ -5,7 +5,7 @@ module.exports = {
     siteMetadata: {
         title: `Slip N Score Soap Football`,
         siteUrl: `https://www.slipnscore.in`,
-        image: `/logo.png`,
+        image: `./static/logo.png`,
         description: `Slip N Score are your ultimate destination for an unforgettable fusion of football and slipperiness. Our one-of-a-kind arena invites thrill-seekers, sports enthusiasts, and anyone up for a unique adventure to experience the joy of football on a soapy stage. Our Arena: Step into our vibrant, action-packed arena where the rules of the game are simple: Slip, slide, score! Our specially designed, soapy surface promises endless hours of laughter, challenge, and excitement.`,
     },
     plugins: ["gatsby-plugin-theme-ui", "gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-robots-txt", {
@@ -82,7 +82,30 @@ module.exports = {
                 sitemap: 'https://www.slipnscore.in/sitemap.xml',
                 policy: [{userAgent: '*', allow: '/'}]
             }
-        }
+        },
+        {
+            resolve: 'gatsby-plugin-favicons',
+            options: {
+                logo: './src/images/logo.png',
+                appName: 'Slip N Score',
+                background: '#fff',
+                icons: {
+                    android: true,
+                    appleIcon: true,
+                    appleStartup: true,
+                    coast: false,
+                    favicons: true,
+                    yandex: false,
+                    windows: false
+                }
+            }
+        },
+        {
+            resolve: 'gatsby-plugin-manifest',
+            options: {
+                icon: 'src/images/icon.png',
+            },
+        },
 
     ]
 };
