@@ -86,7 +86,7 @@ module.exports = {
         {
             resolve: 'gatsby-plugin-favicons',
             options: {
-                logo: 'src/images/icon.png',
+                logo: './src/images/icon.png',
                 appName: 'Slip N Score',
                 background: '#fff',
                 icons: {
