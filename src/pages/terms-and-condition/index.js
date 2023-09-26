@@ -142,7 +142,7 @@ export const Head = () => (
     <>
         <title>{SEO?.TERMSCOND?.title}</title>
         <meta name="description" content={SEO?.TERMSCOND?.description} />
-        {/*<meta name="image" content={''} />*/}
+        <meta name="image" content='https://ik.imagekit.io/slipnscore/logo.png?updatedAt=1695708043285' />
     </>
 )
 

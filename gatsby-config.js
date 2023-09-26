@@ -70,7 +70,7 @@ module.exports = {
                 // Any additional optional fields
                 sampleRate: 5,
                 siteSpeedSampleRate: 10,
-                cookieDomain: "example.com",
+                cookieDomain: "slipnscore.in",
                 // defaults to false
                 enableWebVitalsTracking: true,
             },
@@ -86,7 +86,7 @@ module.exports = {
         {
             resolve: 'gatsby-plugin-favicons',
             options: {
-                logo: './src/images/logo.png',
+                logo: 'src/images/icon.png',
                 appName: 'Slip N Score',
                 background: '#fff',
                 icons: {

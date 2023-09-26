@@ -42,7 +42,7 @@ export const Hero = () => {
         <div className="hero-bg">
           <StaticImage
             className="hero-img"
-            src="../../../static/hero_bg.png"
+            src="https://ik.imagekit.io/slipnscore/hero_bg.png?updatedAt=1695709257059"
             alt="slip n score"
           />
           <div className="hero-dull"></div>
