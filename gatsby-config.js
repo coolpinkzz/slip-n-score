@@ -86,7 +86,7 @@ module.exports = {
         {
             resolve: 'gatsby-plugin-favicons',
             options: {
-                logo: 'https://ik.imagekit.io/slipnscore/logo.png?updatedAt=1695708043285',
+                logo: 'src/images/icon.png',
                 appName: 'Slip N Score',
                 background: '#fff',
                 icons: {
@@ -103,7 +103,7 @@ module.exports = {
         {
             resolve: 'gatsby-plugin-manifest',
             options: {
-                icon: 'https://ik.imagekit.io/slipnscore/logo.png?updatedAt=1695708043285',
+                icon: './src/images/icon.png',
             },
         },
 
